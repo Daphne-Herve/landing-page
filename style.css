@@ -1,0 +1,27 @@
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+img {
+  width: 20%;
+  margin-top: 10vh;
+  margin-left: 40%;
+}
+
+/* .forms {
+  animation-duration: 25s;
+  animation-name: tournaround;
+}
+
+@keyframes tournaround {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+} */
