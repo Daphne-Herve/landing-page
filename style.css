@@ -1,46 +1,201 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Serif', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.title {
+  max-width: 300px;
+  color: rgb(93, 93, 93);
+  margin-left: 1.5%;
+  padding-top: 0vh;
+  font-size: medium;
+  position: absolute;
+  z-index: 3;
+  text-transform: capitalize;
+  font-size: medium;
+}
+
+.title:hover {
+  text-decoration: 2px rgb(196, 196, 253) wavy underline;
+}
+
+
+/* --------------------- burger menu --------------------------- */
+
+
+.burger-menu {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 95%;
+  z-index: 2;
+  /* margin-left: 57%; */
+  position: relative;
+}
+
+.icon {
+  z-index: 8;
+  margin-top: 40%;
+  width: 80%;
+  height: auto;
+  padding: 2%;
+}
+
+
+nav {
+  background-color: rgb(133, 133, 233);
+  position: fixed;
+  z-index: 9;
+  top: 0;
+  right: 0;
+  height: 100%;
+  max-width: 515px;
+  width: 0%;
+  /* padding: 100px 40px 60px 40px; */
+  overflow-y: auto;
+}
+
+.nav-container {
+  margin-left: 4%;
+  margin-top: 2.5vh;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  display: block;
+  letter-spacing: 5px;
+  font-weight: 600;
+  padding: 10px 0;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  height:100%;
+  background-color: rgba(245, 245, 220, 0.603);
+  /* visibility: hidden; */
+  opacity: 0;
+}
+
+
+
+/* Fin du burger menu --------------------------- */
+
 .container {
   width: 100%;
   height: 100vh;
 }
 
-img {
+.animated-svg {
   width: 20%;
   margin-top: 10vh;
   margin-left: 40%;
 }
 
-/* Portrait */
+/* ------------------------------------------- Mobile */
 @media only screen
   and (min-device-width: 320px)
-  and (max-device-width: 480px)
+  and (max-device-width: 499px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
 
     .container {
       width: 100%;
       height: 100vh;
+      position: fixed;
     }
 
-    img {
+    .animated-svg {
       width: 80%;
       margin-top: 10vh;
       margin-left: 10%;
     }
+
+    .title {
+      /* max-width: 300px; */
+      /* color: rgb(93, 93, 93); */
+      margin-left: 2.5%;
+      padding-top: 2vh;
+      font-size: medium;
+      position: absolute;
+      z-index: 3;
+      text-transform: capitalize;
+      font-size: 8px;
+    }
+
+
+/* --------------------- burger menu --------------------------- */
+
+
+    .burger-menu {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      margin-left: 85%;
+      /* margin-left: 57%; */
+      position: absolute;
+      z-index: 10;
+    }
+
+    .icon {
+      margin-top: 0vh;
+      padding-top: 0;
+      width: 50%;
+      height: auto;
+    }
+
+
+    nav {
+      background-color: rgb(133, 133, 233);
+      position: fixed;
+      z-index: 9;
+      top: 0;
+      right: 0;
+      height: 100%;
+      max-width: 715px;
+      width: 0%;
+      overflow-y: auto;
+    }
+
+    .nav-container {
+      text-align: center;
+      margin-left: -10%;
+      margin-top: 15vh;
+    }
+
+    ul {
+      list-style-type: none;
+    }
+
+    a{
+      color: white;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 14px;
+      display: block;
+      letter-spacing: 5px;
+      font-weight: 600;
+      padding-bottom: 5vh;
+      padding-top: 0;
+      /* padding: 10px 0; */
+    }
+
+    /* Fin du burger menu --------------------------- */
+
 }
-
-/* .forms {
-  animation-duration: 25s;
-  animation-name: tournaround;
-}
-
-@keyframes tournaround {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-} */
