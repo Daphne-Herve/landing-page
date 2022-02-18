@@ -112,7 +112,7 @@ a{
 @media only screen
   and (min-device-width: 250px)
   and (max-device-width: 499px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-device-pixel-ratio: 3)
   and (orientation: portrait) {
 
     .container {
@@ -184,7 +184,7 @@ a{
     }
 
     a{
-      color: white;
+      color: yellow;
       text-decoration: none;
       text-transform: uppercase;
       font-size: 14px;
