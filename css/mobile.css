@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100;200;400&display=swap');
+
+.container {
+  width: 90%;
+  height: 100vh;
+  position: fixed;
+  margin: 0;
+  padding: 0 ;
+}
+
+.animated-svg {
+  width: 80%;
+  margin-top: 10vh;
+  margin-left: 12.5%;
+}
+
+.title {
+  max-width: 300px;
+  color: rgb(93, 93, 93);
+
+  margin-left: 2.5%;
+  padding-top: 2vh;
+  font-size: 14px;
+  position: absolute;
+  z-index: 3;
+  text-transform: capitalize;
+  font-size: 8px;
+}
+
+
+/* --------------------- burger menu --------------------------- */
+
+
+.burger-menu {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 85%;
+  /* margin-left: 57%; */
+  position: absolute;
+  z-index: 10;
+}
+
+.icon {
+  margin-top: 0vh;
+  padding-top: 0;
+  width: 50%;
+  height: auto;
+}
+
+
+nav {
+  background-color: rgb(87, 102, 150);
+  position: fixed;
+  z-index: 9;
+  top: 0;
+  right: 0;
+  height: 100%;
+  /* max-width: 715px; */
+  width: 0%;
+  overflow-y: auto;
+}
+
+.nav-container {
+  text-align: center;
+  margin-left: -10%;
+  margin-top: 15vh;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  display: block;
+  letter-spacing: 5px;
+  font-weight: 600;
+  padding-bottom: 5vh;
+  padding-top: 0;
+  /* padding: 10px 0; */
+}
