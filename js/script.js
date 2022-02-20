@@ -20,8 +20,8 @@ function toggleMenu() {
 
 // if (window.matchMedia("(max-width: 740px)").matches) {
 
-let iconOpen = '<img style="width:70%; margin-top:0;" src="../assets/icon-open.png" alt=""/>' ;
-let iconClose = '<img style="width:70%; margin-top:0;" src="../assets/icon-close.png" alt=""/>';
+let iconOpen = '<img style="width:70%; margin-top:0;" src="./assets/icon-open.png" alt=""/>' ;
+let iconClose = '<img style="width:70%; margin-top:0;" src="./assets/icon-close.png" alt=""/>';
 
   function openMenu() {
     this.icon.innerHTML = iconOpen;
