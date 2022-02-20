@@ -5,8 +5,46 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>D.Minnesang</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100;200;400&display=swap');
+    </style>
+      <link
+      rel="stylesheet"
+      media="screen and (max-width: 740px)"
+      href="../css/mobile.css"
+      type="text/css"
+      />
+      <link
+      rel="stylesheet"
+      media="screen and (min-width: 741px)"
+      href="../css/desktop.css"
+      type="text/css"
+      />
+      <script src="https://cdn.jsdelivr.net/npm/vivus@latest/dist/vivus.min.js"></script>
 </head>
 <body>
-  <h1>Page des Dessins</h1>
+<!--------------- Burger - menu -------------->
+<a class="title" href="./index.html">D.Minnesang</a>
+
+<div class="burger-menu" id="burger-div">
+    <span class="burger" id="burger">
+    <p id="icon">
+      <img class="icon" src="../assets/icon-open.png" alt="">
+    </p>
+  </span>
+</div>
+
+<nav id="panel">
+  <div class="nav-container">
+      <ul class="main">
+        <li><a href="./index.html">Accueil</a></li>
+        <li><a href="./page-poemes.html">Poèmes</a></li>
+        <li><a href="#">En vrac</a></li>
+        <li><a href="#">A propos</a></li>
+      </ul>
+  </div>
+</nav>
+<script src="https://cdn.jsdelivr.net/npm/vivus@latest/dist/vivus.min.js"></script>
+<script src="../js/script.js"></script>
 </body>
 </html>
