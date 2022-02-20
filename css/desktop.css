@@ -62,7 +62,6 @@ overflow-y: auto;
 }
 
 .nav-container {
-/* margin-left: 40%; */
 margin-top: 2.5vh;
 }
 
@@ -93,6 +92,6 @@ height: 100vh;
 
 .animated-svg {
 width: 20%;
-margin-top: 10vh;
+margin-top: 20vh;
 margin-left: 40%;
 }
