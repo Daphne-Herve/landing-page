@@ -160,6 +160,22 @@ margin-left: 40%;
   padding: 0;
 }
 
+/* big maxi pour le paysage au feutre en pleine page */
+.big-picture-block.big.maxi {
+  margin-top: 0px;
+  padding-top: 0px;
+  width: 100%;
+  margin: 0 2% 0 6%;
+  text-align: center;
+  max-height: 200vh;
+}
+
+.big-picture-block.big.maxi img {
+  max-height: 200vh;
+  height: auto;
+  padding: 0;
+}
+
 .big-picture-block img {
   max-height: 80vh;
   height: auto;

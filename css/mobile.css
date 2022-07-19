@@ -15,16 +15,14 @@
 }
 
 .title {
-  max-width: 300px;
   color: rgb(93, 93, 93);
-
   margin-left: 2.5%;
   padding-top: 2vh;
   font-size: 14px;
   position: absolute;
   z-index: 3;
   text-transform: capitalize;
-  font-size: 8px;
+  font-size: 14px;
 }
 
 
@@ -35,7 +33,7 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  margin-left: 85%;
+  margin-left: 79%;
   /* margin-left: 57%; */
   position: absolute;
   z-index: 10;
@@ -88,6 +86,172 @@ a{
   box-shadow: none;
   -webkit-tap-highlight-color: transparent;
 }
+
+
+/* block dessins --------------------------- */
+
+
+.dessins {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  margin: 0;
+}
+.draws-block {
+  width: 44%;
+  height: 40vh;
+  margin-top: 5vh;
+  margin-left: 5%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.contenus-block {
+  width: 100%;
+  max-height: 340vh;
+  margin-top: 5vh;
+  margin-left: 2.5%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text-block {
+  width: 100%;
+  padding: 0 8% 0% 1%;
+  text-align: center;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  margin-top: 5vh;
+  height: auto;
+  max-height: 20vh;
+}
+
+.text-block p{
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  height: auto;
+  max-height: 20vh;
+}
+
+.big-picture-block {
+  margin-top: 0px;
+  padding-top: 0px;
+  width: 100%;
+  margin: 0 1% 0 3%;
+  text-align: center;
+  max-height: 200vh;
+  /* margin-top: 15px;
+  margin-bottom: 30px; */
+}
+
+.big-picture-block.big {
+  margin-top: 0px;
+  padding-top: 0px;
+  width: 100%;
+  margin: 0 1% 0 3%;
+  text-align: center;
+  max-height: 70vh;
+}
+
+.big-picture-block.big img {
+  max-height: 70vh;
+  height: auto;
+  padding: 0;
+}
+
+/* big maxi pour le paysage au feutre en pleine page */
+.big-picture-block.big.maxi {
+  margin-top: 0px;
+  padding-top: 0px;
+  width: 100%;
+  margin: 0 1% 0 3%;
+  text-align: center;
+  max-height: 40vh;
+}
+
+.big-picture-block.big.maxi img {
+  max-height: 45vh;
+  height: auto;
+  padding: 0;
+}
+
+.big-picture-block img {
+  max-height: 40vh;
+  height: auto;
+  padding: 0;
+}
+
+.big-picture-block.big.double {
+  margin-top: 0px;
+  padding-top: 0px;
+  width: 100%;
+  padding: 0 5% 0 1%;
+  text-align: center;
+  max-height: 90vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.big-picture-block.big.double img {
+  max-height: 38vh;
+  height: auto;
+  padding: 10px 0 10px 0;
+}
+
+.big-picture-block .grid {
+  height: auto;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: space-around;
+}
+
+.big-picture-block .grid img {
+  max-height: 34vh;
+  height: auto;
+  padding: 0;
+}
+
+
+.draw {
+  width: 14%;
+}
+
+.draw > img {
+  padding: 3%;
+  margin: 0;
+  width: 100%;
+  height: auto;
+}
+.draw > .overlay {
+  padding: 2.5%;
+  margin: 0;
+  width: 45%;
+  height: 13%;
+  position: relative;
+  background-color: rgba(243, 249, 255, 0.879);
+  margin-left: 3%;
+  margin-top: -10vh;
+  display: none;
+}
+
+.draw > img:hover + div {
+  transition-duration: 4s;
+  display: block;
+}
+
+
+
+
 
 
 
