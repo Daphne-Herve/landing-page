@@ -14,7 +14,7 @@ text-decoration: none;
 .title {
 max-width: 300px;
 color: rgb(93, 93, 93);
-margin-left: 5%;
+margin-left: 10%;
 padding-top: 5vh;
 font-size: 18px;
 position: absolute;
@@ -24,7 +24,8 @@ font-size: medium;
 }
 
 .title:hover {
-text-decoration: 2px rgb(196, 196, 253) wavy underline;
+/* text-decoration: 2px rgb(196, 196, 253) wavy underline; */
+text-decoration: 2px #d9ead3 wavy underline;
 }
 
 
@@ -51,7 +52,8 @@ padding: 2%;
 
 
 nav {
-background-color: rgb(87, 102, 150);
+/* background-color: rgb(70, 112, 160); */
+background-color: #d9ead3;
 position: fixed;
 z-index: 9;
 top: 0;
@@ -72,13 +74,13 @@ text-align: center;
 }
 
 a{
-color: white;
+color: black;
+/* color: white; */
 text-decoration: none;
 text-transform: uppercase;
 font-size: 1.5rem;
 display: block;
 letter-spacing: 5px;
-font-weight: 600;
 padding: 20px 0;
 }
 
@@ -95,3 +97,134 @@ width: 20%;
 margin-top: 20vh;
 margin-left: 40%;
 }
+
+/* block dessins --------------------------- */
+
+
+.dessins {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.draws-block {
+  width: 84%;
+  height: 80vh;
+  margin-top: 15vh;
+  margin-left: 5%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.contenus-block {
+  width: 84%;
+  max-height: 85vh;
+  margin-top: 15vh;
+  margin-left: 5%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text-block {
+  width: 100%;
+  margin: 0 2% 0 6%;
+  text-align: center;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  height: 20vh;
+  max-height: 12vh;
+}
+
+.big-picture-block {
+  margin-top: 0px;
+  padding-top: 0px;
+  width: 100%;
+  margin: 0 2% 0 6%;
+  text-align: center;
+  max-height: 80vh;
+}
+
+.big-picture-block.big {
+  margin-top: 0px;
+  padding-top: 0px;
+  width: 100%;
+  margin: 0 2% 0 6%;
+  text-align: center;
+  max-height: 135vh;
+}
+
+.big-picture-block.big img {
+  max-height: 135vh;
+  height: auto;
+  padding: 0;
+}
+
+.big-picture-block img {
+  max-height: 80vh;
+  height: auto;
+  padding: 0;
+}
+
+.big-picture-block.big.double {
+  margin-top: 0px;
+  padding-top: 0px;
+  width: 100%;
+  margin: 0 2% 0 6%;
+  text-align: center;
+  max-height: 135vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.big-picture-block.big.double img {
+  max-height: 65vh;
+  height: auto;
+  padding: 0;
+}
+
+.big-picture-block .grid {
+  height: auto;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-around;
+}
+
+.big-picture-block .grid img {
+  max-height: 30vh;
+  height: auto;
+  padding: 0;
+}
+
+.draw {
+  width: 28%;
+}
+
+.draw > img {
+  padding: 5%;
+  margin: 0;
+  width: 100%;
+  height: auto;
+}
+.draw > .overlay {
+  padding: 5%;
+  margin: 0;
+  width: 90%;
+  height: 26%;
+  position: relative;
+  background-color: rgba(243, 249, 255, 0.879);
+  margin-left: 5%;
+  margin-top: -19.5vh;
+  display: none;
+}
+
+.draw > img:hover + div {
+  transition-duration: 4s;
+  display: block;
+}
+
+
