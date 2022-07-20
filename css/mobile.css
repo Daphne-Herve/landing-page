@@ -56,9 +56,6 @@ body {
 
 nav {
   background-color: #d9ead3;
-  /* background-color: rgb(87, 102, 150); */
-
-
   position: fixed;
   z-index: 9;
   top: 0;
@@ -155,6 +152,10 @@ a{
   max-height: 200vh;
   /* margin-top: 15px;
   margin-bottom: 30px; */
+}
+
+.big-picture-block.paradoxes {
+  margin-top: 10vh;
 }
 
 .big-picture-block.big {
@@ -261,7 +262,7 @@ a{
 .form-bloc {
   width: 90%;
   text-align: center;
-  height: 120Vh;
+  height: 130Vh;
   margin-left: -15px;
   margin-top: 10px;
   }
@@ -269,6 +270,19 @@ a{
   .form-text {
   width: 100%;
   margin-left: 20px;
+  }
+
+/* page about --------------------------- */
+  /* .big-picture-block.big {
+    max-height: 30vh;
+  } */
+
+  .big-picture-block.big.about {
+    max-height: 30vh;
+  }
+  .about-big-picture {
+    max-height: 20vh;
+    width: 100%;
   }
 
 

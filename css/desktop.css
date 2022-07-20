@@ -7,6 +7,7 @@ body {
   box-sizing: border-box;
   /* font-family: 'Roboto Serif', sans-serif; */
   font-family: 'Comfortaa', cursive;
+    line-height: 25px;
 }
 
 a {
@@ -256,5 +257,10 @@ height: 120Vh;
 
 .form-text {
 width: 100%;
+}
+
+/* Texte qui se trouve page about il partage une partie de l'espace avec une image */
+.text-double {
+  width: 50%;
 }
 
