@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100;200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
 
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto Serif', sans-serif;
+  /* font-family: 'Roboto Serif', sans-serif; */
+  font-family: 'Comfortaa', cursive;
 }
 
 a {
@@ -16,15 +18,15 @@ max-width: 300px;
 color: rgb(93, 93, 93);
 margin-left: 10%;
 padding-top: 5vh;
-font-size: 18px;
+font-family: 'Comfortaa', cursive;
 position: absolute;
 z-index: 3;
-text-transform: capitalize;
-font-size: medium;
+/* text-transform: lowercase; */
+font-size: large;
+font-weight: 800;
 }
 
 .title:hover {
-/* text-decoration: 2px rgb(196, 196, 253) wavy underline; */
 text-decoration: 2px #d9ead3 wavy underline;
 }
 
@@ -182,6 +184,7 @@ margin-left: 40%;
   padding: 0;
 }
 
+/* La largeur est séparée de manière égale pour deux images côte à côté */
 .big-picture-block.big.double {
   margin-top: 0px;
   padding-top: 0px;
@@ -243,4 +246,15 @@ margin-left: 40%;
   display: block;
 }
 
+/* block formulaire --------------------------- */
+.form-bloc {
+width: 100%;
+text-align: center;
+margin: 0 10%;
+height: 120Vh;
+}
+
+.form-text {
+width: 100%;
+}
 
