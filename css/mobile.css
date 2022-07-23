@@ -290,6 +290,32 @@ a{
   }
 
 
+  /* enquete */
+
+  .big-picture-block-enquete {
+    margin: 0;
+    margin-top: 4vh;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    gap:10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 10%;
+  }
+
+  .big-picture-block-enquete .img-enquete {
+    margin: 0;
+    /* height: 100%; */
+    width: inherit;
+    /* max-width: 70%; */
+    /* height: 20%;
+    max-height: 45%; */
+    /* width: 100%; */
+  }
+
 
 
 
