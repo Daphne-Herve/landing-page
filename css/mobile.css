@@ -130,7 +130,7 @@ a{
   padding-bottom: 0px;
   margin-top: 5vh;
   height: auto;
-  max-height: 20vh;
+  /* max-height: 20vh; */
 }
 
 .text-block p{
@@ -140,7 +140,7 @@ a{
   margin-bottom: 0px;
   padding-bottom: 0px;
   height: auto;
-  max-height: 20vh;
+  /* max-height: 20vh; */
 }
 
 .big-picture-block {

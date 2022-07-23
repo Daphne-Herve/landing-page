@@ -143,6 +143,9 @@ margin-left: 40%;
   text-align: center;
   max-height: 80vh;
 }
+.big-picture-block.paradoxes {
+  margin-top: 0;
+}
 
 .big-picture-block.big {
   margin-top: 0px;
