@@ -135,6 +135,11 @@ margin-left: 40%;
   max-height: 12vh;
 }
 
+.text-block.paradoxes {
+  padding-right:4%;
+  padding-left:4%;
+}
+
 .big-picture-block {
   margin-top: 0px;
   padding-top: 0px;

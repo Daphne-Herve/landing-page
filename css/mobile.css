@@ -143,6 +143,10 @@ a{
   /* max-height: 20vh; */
 }
 
+.text-block.paradoxes {
+  padding-right:3%;
+}
+
 .big-picture-block {
   margin-top: 0px;
   padding-top: 0px;
