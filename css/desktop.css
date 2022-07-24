@@ -468,6 +468,16 @@ width: 100%;
     width: 100%;
   }
 
+/* animation */
+  .title-animation {
+    animation:  linear 4000ms disapear;  }
+
+
+  @keyframes disapear {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+  }
+
 
 
 
