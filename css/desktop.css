@@ -367,4 +367,114 @@ width: 100%;
     width: 100%;
   }
 
+  /* Mouvements */
+
+  .double-picture-mouvement {
+    max-height: 50vh;
+    height: unset;
+  }
+
+  .big-picture-block-mouvements {
+    margin:0;
+    max-height: none;
+    height: unset;
+    gap: 1%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    padding: 0 7%;
+    width: 100%;
+  }
+
+  .big-picture-block-mouvements img{
+    /* margin:0; */
+    max-height: none;
+    height: unset;
+    max-width: 50%;
+    width: 100%;
+  }
+
+  .spacer-mouvements {
+    padding: 0.5vh 0;
+    height: 1%;
+    width: 100%;
+    margin: 5vh 0;
+  }
+
+
+
+  .double-picture-mouvement {
+    max-height: 20vh;
+    height: unset;
+  }
+
+  .big-picture-block-mouvements {
+    max-height: none;
+    height: unset;
+    padding: 0 7%;
+    width: 100%;
+    margin: 0;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5vh;
+  }
+
+  .big-picture-block-mouvements img{
+    /* margin:0; */
+    max-height: none;
+    height: unset;
+    max-width: 100%;
+    width: 45%;
+  }
+
+  .big-picture-block-big-double-mouvements {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* display: flex;
+    margin-left: auto;
+    justify-content: center;
+    margin-right: auto;
+    flex-wrap: wrap; */
+    padding: 0 7%;
+  }
+
+  .big-picture-block-big-double-mouvements img {
+    max-height: 35vh;
+    height: unset;
+  }
+
+  .big-picture-block-big-double-mouvements  .text-double-about {
+    height: unset;
+    max-height: none;
+
+  }
+
+  .container-triple {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5vh;
+  }
+  .container-triple img{
+    width: 100%;
+    max-width: 30%;
+  }
+
+  .spacer-mouvements {
+    padding: 0.5vh 0;
+    height: 1%;
+    width: 100%;
+  }
+
+
+
+
+
+
+
+
+
+
 
