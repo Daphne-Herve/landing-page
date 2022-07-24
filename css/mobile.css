@@ -312,6 +312,43 @@ a{
   }
 
 
+  /* About */
+
+  .text-block-about {
+    margin:0; padding: 0 7%;
+  }
+  .text-paragraph-about {
+    text-align:start;
+    overflow-wrap: break-word;
+    white-space: pre-line;
+    width: 100%;
+    text-align: justify;
+  }
+
+  .text-double-about {
+    height: 30vh;
+    align-items: center;
+    overflow-wrap: break-word;
+    white-space: pre-line;
+    text-align: justify;
+  }
+
+  .big-picture-block-big-double-about {
+    padding: 0 7%;
+  }
+
+  .portrait {
+    max-height: none;
+    width: 100%;
+  }
+
+  .spacer-about {
+    padding: 0.5vh 0;
+    height: 1%;
+    width: 100%;
+  }
+
+
 
 
 

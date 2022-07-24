@@ -287,9 +287,84 @@ width: 100%;
 
 .big-picture-block-enquete img {
   margin: 0;
-  /* height: 100%; */
-  /* max-height: 70vh; */
   width: inherit;
   max-width: 53%;
 }
+
+
+  /* About */
+
+  .dessins-about {
+    margin: 0;
+    /* margin-left: 0; */
+    max-height: none;
+    height: unset;
+    width: 100%;
+    padding: 0;
+  }
+
+  .contenus-block-about {
+    width: 100%;
+    max-height: none;
+    height: unset;
+  }
+
+  .big-picture-block-big-about{
+    margin: 0;
+    padding: 0;
+  }
+
+  .about-big-picture {
+    margin-top: 0;
+    margin-left: 0;
+    max-height: none;
+    height: unset;
+    width: 100%;
+    padding: 0;
+  }
+
+  .text-block-about {
+    margin:0; padding: 0 7%;
+  }
+  .text-paragraph-about {
+    text-align:start;
+    overflow-wrap: break-word;
+    white-space: pre-line;
+    width: 100%;
+    text-align: justify;
+  }
+
+  .big-picture-block-big-double-about {
+    margin:0;
+    max-height: none;
+    height: unset;
+    gap: 1%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    padding: 0 7%;
+  }
+
+  .text-double-about {
+    align-items: center;
+    overflow-wrap: break-word;
+    white-space: pre-line;
+    text-align: justify;
+    height: unset;
+    max-height: none;
+    max-width: 60%;
+  }
+
+  .portrait {
+    max-height: 30vh;
+    height: unset;
+  }
+
+  .spacer-about {
+    padding: 0.5vh 0;
+    height: 1%;
+    width: 100%;
+  }
+
 
